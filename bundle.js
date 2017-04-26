@@ -14985,12 +14985,29 @@ module.exports = function(module) {
 /* 111 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
 /* global moment */
 var moment = __webpack_require__(0);
 console.log("Hello Everyone!");
-var datetime = moment().format('MMMM Do YYYY, h:mm:ss a');
+var datetime = moment().format("MMMM Do YYYY, h:mm:ss a");
 console.log(datetime);
+console.log("hello!");
+console.log("I HAVE TO REFRESH!!!!");
+function test() {
+  var x = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 24;
 
+  console.log(x);
+}
+console.log("HI EVERYONE");
+console.log("HI EVERYONE");
+
+test();
+
+function dropdown() {
+  alert("hi!");
+}
 
 /***/ })
 /******/ ]);
